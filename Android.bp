@@ -793,6 +793,9 @@ cc_library_static {
         "//apex_available:platform",
         "com.android.virt",
     ],
+    lto: {
+        never: true,
+    },
 }
 
 cc_library_static {
